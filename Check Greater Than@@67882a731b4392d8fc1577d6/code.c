@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-char* welcome() 
 int main() {
 int a,b;
 scanf("%d%d",&a, &b);
