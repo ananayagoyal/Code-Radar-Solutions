@@ -4,7 +4,7 @@ int main() {
     int b;
     scanf("%c",&a);
     b = a;
-    if(65 <=a && a<=92)
+    if(65 <=a && a<=90)
     {
         printf("Uppercase");
     }
