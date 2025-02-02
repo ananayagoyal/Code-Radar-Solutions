@@ -6,7 +6,7 @@ int main() {
     {
         printf("Valid");
     }
-    else if((b**2=(a**2)+(c**2)))
+    else if((b**2)=(a**2)+(c**2))
     {
         printf("Valid");
     }
