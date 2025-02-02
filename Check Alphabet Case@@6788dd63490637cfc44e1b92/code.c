@@ -8,7 +8,7 @@ int main() {
     {
         printf("Uppercase");
     }
-    else
+    elif(b<=97 )
     {
         printf("Lowercase");
     }
