@@ -12,7 +12,7 @@ int main() {
     {
         printf("C");
     }
-    else if(70<a<=60){
+    else if(60<=a<70){
         printf("D");
     }
     else
