@@ -5,6 +5,6 @@ int main() {
     float d;
     scanf("%d%d%c",&a, &b, &c);
     d= a c b;
-    printf("%f",&d);
+    printf("%f",d);
     return 0;
 }
