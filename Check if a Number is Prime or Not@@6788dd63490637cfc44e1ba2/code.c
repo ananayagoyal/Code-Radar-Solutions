@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main() {
-    int i;
+    int i,flag,n;
     scanf("%d",&i);
     flag = 1;
-    for(i=2;i>n;i++){
+    for(n=2;i>n;n++){
         if(i%(n-1)==0)
         flag = 0;
     }
