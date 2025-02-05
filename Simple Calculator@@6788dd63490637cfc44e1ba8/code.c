@@ -6,7 +6,7 @@ int main() {
     scanf("%f %f %c",&a, &b, &c);
     if(c == '+')
     {
-        d = a+b;
+        d = a + b;
     printf("%d",d);
     }
     else if (c == '-')
@@ -23,6 +23,10 @@ int main() {
         if( b != 0){
         d = a/b;
         printf("%f",d);
+        }
+        else
+        {
+            printf("error");
         }
     }
     return 0;
