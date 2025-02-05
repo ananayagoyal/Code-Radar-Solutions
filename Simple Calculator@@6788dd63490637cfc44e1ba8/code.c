@@ -16,7 +16,7 @@ int main() {
     }
     else if ( c == '*'){
         d = a*b;
-        printf("%d",d);
+        printf("%f",int(d));
     }
     else 
     {
