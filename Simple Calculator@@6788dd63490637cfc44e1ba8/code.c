@@ -7,7 +7,7 @@ int main() {
     if(c == '+')
     {
         d = a+b;
-    printf("%f",int(d));
+    printf("%d",d);
     }
     else if (c == '-')
     {
