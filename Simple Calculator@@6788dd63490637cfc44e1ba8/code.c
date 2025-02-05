@@ -21,7 +21,7 @@ int main() {
     else 
     {
         d = a/b;
-        printf("%d",d);
+        printf("%f",d);
     }
     return 0;
 }
