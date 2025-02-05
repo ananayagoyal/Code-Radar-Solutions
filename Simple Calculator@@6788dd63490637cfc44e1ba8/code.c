@@ -12,7 +12,7 @@ int main() {
     else if (c == '-')
     {
         d = a-b;
-        printf("%f",d);
+        printf("%f",int(d));
     }
     else if ( c == '*'){
         d = a*b;
