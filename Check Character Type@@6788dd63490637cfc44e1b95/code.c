@@ -1,9 +1,8 @@
 #include <stdio.h>
-#include <ctype.h>
 int main() {
-    char a;
-    scanf("%c",&a);
-    if(isalpha(a)){
+    char ch;
+    scanf("%c",&ch);
+    if((ch<='a' && ch>=z))||(ch <='A'&& ch>='Z'){
         if(a == 'a' || a == 'e' || a == 'i' || a == 'o' ||
          a == 'u' || a == 'A' || a == 'E' || a == 'I' || a == 'O' || a == 'U'){
             printf("Vowel\n");
@@ -12,7 +11,7 @@ int main() {
             printf("Consonant\n");
         }
     }
-    else if (isdigit(a)){
+    else if (a>='0' &&a<='9'){
         printf("Digit\n");
     }
     else{
