@@ -1,27 +1,29 @@
 #include <stdio.h>
 int main() {
-    int a,b;
+    float a,b;
     char c;
-    int d;
-    scanf("%d%d%c",&a, &b, &c);
+    float d;
+    scanf("%f%f%c",&a, &b, &c);
     if(c == '+')
     {
         d = a+b;
-    printf("%d",d);
+    printf("%f",d);
     }
     else if (c == '-')
     {
         d = a-b;
-        printf("%d",d);
+        printf("%f",d);
     }
     else if ( c == '*'){
         d = a*b;
-        printf("%d",d);
+        printf("%f",d);
     }
     else 
     {
+        if( b != 0){
         d = a/b;
-        printf("%d",d);
+        printf("%f",d);
+        }
     }
     return 0;
 }
