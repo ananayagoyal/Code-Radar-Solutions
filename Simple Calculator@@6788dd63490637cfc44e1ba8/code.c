@@ -2,26 +2,26 @@
 int main() {
     int a,b;
     char c;
-    float d;
+    int d;
     scanf("%d%d%c",&a, &b, &c);
     if(c == '+')
     {
         d = a+b;
-    printf("%f",d);
+    printf("%d",d);
     }
     else if (c == '-')
     {
         d = a-b;
-        printf("%f",d);
+        printf("%d",d);
     }
     else if ( c == '*'){
         d = a*b;
-        printf("%f",d);
+        printf("%d",d);
     }
     else 
     {
         d = a/b;
-        printf("%f",d);
+        printf("%d",d);
     }
     return 0;
 }
