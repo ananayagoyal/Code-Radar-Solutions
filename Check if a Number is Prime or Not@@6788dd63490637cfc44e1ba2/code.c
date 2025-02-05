@@ -4,9 +4,10 @@ int main() {
     scanf("%d",&i);
     flag = 1;
     for(n=2;n<=i/2;n++){
-        if(i%n==0)
+        if(i%n==0){
         flag = 0;
         break;
+        }
     }
     if (flag == 1)
     {
