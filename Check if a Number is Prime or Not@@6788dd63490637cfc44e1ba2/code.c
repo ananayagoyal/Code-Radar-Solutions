@@ -7,6 +7,7 @@ int main() {
     for(n=2;j<=i;n++){
         if(i%n==0)
         flag = 0;
+        break;
     }
     if (flag == 1)
     {
