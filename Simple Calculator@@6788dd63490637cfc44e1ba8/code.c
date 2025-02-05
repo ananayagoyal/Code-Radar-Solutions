@@ -4,7 +4,24 @@ int main() {
     char c;
     float d;
     scanf("%d%d%c",&a, &b, &c);
-    d= a c b;
+    if(c == '+')
+    {
+        d = a+b;
     printf("%f",d);
+    }
+    else if (c == '-')
+    {
+        d = a-b;
+        printf("%f",d);
+    }
+    else if ( c == '*'){
+        d = a*b;
+        printf("%f",d);
+    }
+    else 
+    {
+        d = a/b;
+        printf("%d",d);
+    }
     return 0;
 }
