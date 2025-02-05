@@ -2,7 +2,7 @@
 int main() {
     float a,b;
     char c;
-    float d;
+    int d;
     scanf("%f %f %c",&a, &b, &c);
     if(c == '+')
     {
@@ -16,7 +16,7 @@ int main() {
     }
     else if ( c == '*'){
         d = a*b;
-        printf("%f",int(d));
+        printf("%d",d);
     }
     else 
     {
