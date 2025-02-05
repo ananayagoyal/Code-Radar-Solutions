@@ -5,7 +5,7 @@ int main() {
     flag = 1;
     for n in range(i){
         if(i%(n-1)==0)
-        flag = 0
+        flag = 0;
     }
     if flag = 1
     {
