@@ -2,7 +2,7 @@
 int main() {
     int i;
     scanf("%d",&i);
-    flag = 1
+    flag = 1;
     for n in range(i){
         if(i%(n-1)==0)
         flag = 0
