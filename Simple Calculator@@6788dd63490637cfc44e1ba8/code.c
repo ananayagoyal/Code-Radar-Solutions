@@ -22,7 +22,7 @@ int main() {
     {
         if( b != 0){
         d = a/b;
-        printf("%f",d);
+        printf("%d",d);
         }
         else
         {
