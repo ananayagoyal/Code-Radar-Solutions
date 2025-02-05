@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main() {
-    int i,flag,n;
+    int i,flag,j,n;
     scanf("%d",&i);
     flag = 1;
     j = n/2;
