@@ -36,7 +36,7 @@ int main() {
         case 11:
         printf("30");
         break;
-        case 12;
+        case 12:
         printf("31");
         break;
         default:
