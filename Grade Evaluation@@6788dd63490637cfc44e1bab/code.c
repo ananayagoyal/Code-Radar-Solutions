@@ -2,20 +2,20 @@
 int main() {
     char a;
     scanf("%c",&a);
-    switch('a'){
-        case'A':
+    switch(a){
+        case A:
         printf("Excellent");
         break;
-        case'B';
+        case B;
         printf("Good");
         break;
-        case 'C':
+        case C:
         printf("Average");
         break;
-        case 'D':
+        case D:
         printf("Below Average");
         break;
-        case 'E':
+        case E:
         printf("Fail");
         break;
         default:
