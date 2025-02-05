@@ -2,7 +2,7 @@
 int main() {
     int i;
     scanf("%d",&i);
-    switch(i){
+    switch i{
         case 1:
         printf(31);
         break;
