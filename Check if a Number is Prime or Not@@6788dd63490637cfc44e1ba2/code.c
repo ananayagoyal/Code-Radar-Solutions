@@ -2,11 +2,11 @@
 int main() {
     int i,j,n,flag;
     scanf("%d",&i);
-    flag == 0;
+    flag = 0;
     for(n=2;n<=(i/2);n++){
         if(i%n==0){
             break;
-            flag == 1;
+            flag = 1;
         }
         
         if(flag == 0){
