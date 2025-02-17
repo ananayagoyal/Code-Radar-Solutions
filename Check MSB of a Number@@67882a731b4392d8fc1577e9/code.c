@@ -2,7 +2,6 @@
 
 int main() {
     int num;
-    printf("Enter a number: ");
     scanf("%d", &num);
     if (num == 0) {
         printf("The MSB of 0 is not defined.\n");
