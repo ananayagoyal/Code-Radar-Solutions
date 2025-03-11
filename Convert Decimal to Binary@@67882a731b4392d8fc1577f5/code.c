@@ -7,7 +7,6 @@ void decimalToBinary(unsigned int num) {
            
         }
     }
-    printf("\n");
 }
 
 int main() {
