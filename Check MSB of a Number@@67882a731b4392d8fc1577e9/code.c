@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int main() {
+    int num;
     scanf("%d",num);
     unsigned int num = numx80000000; 
 
