@@ -6,7 +6,8 @@ int main(){
         for(j=1;j<=i;j++)
         {
             int a=64;
-            printf("%c",a+j);
+            int d= a+j;
+            printf("%c",d);
         }
         printf("\n");
     }
