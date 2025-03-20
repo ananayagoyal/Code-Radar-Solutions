@@ -10,9 +10,6 @@ void decimalToBinary(int n) {
         binary[index--] = n % 2;
         n = n / 2;
     }
-
-
-    printf("Binary representation: ");
     for (int i = 0; i < 4; i++) {
         printf("%d", binary[i]);
     }
