@@ -7,7 +7,7 @@ int main(){
         {
             int a=64;
             int d= a+j;
-            printf("%c",d);
+            printf("%c ",d);
         }
         printf("\n");
     }
