@@ -3,10 +3,6 @@ int main(){
     int m,j;
     scanf("%d",&m);
     for(int i=1;i<=m;i++){
-        for(int n=1;n=i-m;i++)
-        {
-            printf(" ");
-        }
         for(int j=1;j<=i;j++)
         {
             printf("*");
