@@ -6,11 +6,11 @@ int main()
     for(int i=1;i<=m;i++){
         int a =i/2;
         if(a!=0){
-            int b = 1;
+            int b = 0;
         }
         else 
         { 
-            b=0;
+            b=1;
         }
         for(int j=1;j<=i;j++){
         
