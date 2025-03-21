@@ -11,7 +11,7 @@ int main()
             else if(i==1){
             printf("*");
             }
-            else if(i==j){
+            else if(i==m){
                 printf("*");
             }
             else{
