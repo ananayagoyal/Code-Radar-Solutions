@@ -8,12 +8,13 @@ int main()
         if(a!=0){
             int b = 1;
         }
-        else int b=0;
+        else { b=0};
         for(int j=1;j<=i;j++){
         
         printf("%d",b);
-        if(b==1)b=0;
-        else b=1;
+        if(b==1){
+            b=0};
+        else {b=1};
     }
     printf("\n");
     }
