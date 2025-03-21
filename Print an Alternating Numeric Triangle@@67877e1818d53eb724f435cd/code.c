@@ -8,7 +8,10 @@ int main()
         if(a!=0){
             int b = 1;
         }
-        else { b=0};
+        else 
+        { 
+            b=0
+        };
         for(int j=1;j<=i;j++){
         
         printf("%d",b);
