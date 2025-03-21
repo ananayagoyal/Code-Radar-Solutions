@@ -4,8 +4,8 @@ int main()
     int m,b;
     scanf("%d",&m);
     for(int i=1;i<=m;i++){
-        int a =i%2;
-        if(a!=0){
+        if(i%2 !=0)
+        
             int b = 1;
         }
         else 
