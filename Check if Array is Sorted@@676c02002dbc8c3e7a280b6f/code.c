@@ -7,7 +7,7 @@ for(int j = 0;j<=n;j++){
 }
 for(int j = 0;j<=n;j++){
     if(i[j]<=i[j+1]){
-        sorted = 0;
+        int sorted = 0;
         break;
     }
     if(sorted){
