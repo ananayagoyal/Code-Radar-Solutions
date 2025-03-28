@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(){
+int i[n];
+scanf("%d",&n);
+for(int j = 0;j<=n;j++){
+    scanf("%d",&i[j]);
+}
+for(int j = 0;j<=n;j++){
+    if(i[j]<=i[j+1]){
+        printf("Sorted");
+    }
+    else;
+    printf("Not Sorted");
+}
+
+    return 0;
+}
