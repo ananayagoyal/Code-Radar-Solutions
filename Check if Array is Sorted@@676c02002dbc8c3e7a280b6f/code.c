@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-int i[n];
+int n,i[n];
 scanf("%d",&n);
 for(int j = 0;j<=n;j++){
     scanf("%d",&i[j]);
