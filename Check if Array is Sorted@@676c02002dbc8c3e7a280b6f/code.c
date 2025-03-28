@@ -7,12 +7,14 @@ for(int j = 0;j<=n;j++){
 }
 for(int j = 0;j<=n;j++){
     if(i[j]<=i[j+1]){
-        printf("Sorted");
+        sorted = 0;
         break;
+    }
+    if(sorted){
+        printf("Sorted")
     }
     else{
     printf("Not Sorted");
-    break;
     }
 }
 
