@@ -1,7 +1,8 @@
 #include <stdio.h>
 int main(){
-int n,i[n];
+int n;
 scanf("%d",&n);
+int i[n];
 for(int j = 0;j<=n-1;j++){
     scanf("%d",&i[j]);
 }
