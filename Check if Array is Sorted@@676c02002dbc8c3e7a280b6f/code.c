@@ -9,16 +9,16 @@ for(int j = 0;j<=n-1;j++){
 int num ;
 num = 0;
 for(int j = 0;j<=n-1;j++){
-    if(i[j-1] <= i[j] ){
+    if(i[j] > i[j+1] ){
         num = 1;
         break;
     }
 }
     if(num == 1){
-        printf("Sorted");
+        printf("Not Sorted");
     }
     else{
-        printf("Not Sorted");
+        printf("Sorted");
     }
    
 
