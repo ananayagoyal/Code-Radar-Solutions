@@ -11,6 +11,7 @@ num = 0;
 for(int j = 0;j<=n-1;j++){
     if(i[j] <= i[j+1] ){
         num = 1;
+        break;
     }
 }
     if(num == 1){
