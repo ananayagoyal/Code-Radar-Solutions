@@ -14,7 +14,7 @@ for(int j = 0;j<=n-1;j++){
         break;
     }
 }
-    if(num == 1){
+    if(num == 0){
         printf("Sorted");
     }
     else{
