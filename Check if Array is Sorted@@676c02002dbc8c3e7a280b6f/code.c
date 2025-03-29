@@ -8,7 +8,7 @@ for(int j = 0;j<=n-1;j++){
 int num = 0;
 int max = i[n-1];
 for(int j = 0;j<=n-1;j++){
-    if(max > i[]j ){
+    if(max > i[j] ){
         num = 1;
     }
     if(num=1){
