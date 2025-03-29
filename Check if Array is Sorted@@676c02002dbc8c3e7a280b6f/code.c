@@ -5,7 +5,7 @@ scanf("%d",&n);
 for(int j = 0;j<=n-1;j++){
     scanf("%d",&i[j]);
 }
-int num 
+int num ;
 int max = i[n-1];
 for(int j = 0;j<=n-1;j++){
     num = 0;
