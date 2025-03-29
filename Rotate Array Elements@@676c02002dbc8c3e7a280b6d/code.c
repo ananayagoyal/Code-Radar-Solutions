@@ -15,7 +15,7 @@ int main(){
     int n,k;
     scanf("%d",&n);
     int arr[n];
-    for(int f=1;f<=n;f++){
+    for(int f=0;f<=n-1;f++){
         scanf("%d\n",&arr[f]);
     }
     scanf("%d",&k);
@@ -23,7 +23,7 @@ int main(){
     reverse(arr,0,n-1);
     reverse(arr,0,k-1);
     reverse(arr,k,n-1);
-    for(int f=1;f<=n;f++){
+    for(int f=0;f<=n-1;f++){
         printf("%d\n",arr[f]);
     }
 }
