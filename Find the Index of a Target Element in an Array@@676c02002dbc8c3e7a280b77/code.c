@@ -10,6 +10,7 @@ int main(){
     int flag ;
     scanf("%d",&num);
     for(int i = 0;i<=n-1;i++){
+         flag =1;
         if(num == arr[i]){
             printf("%d",i);
             flag = 0;
