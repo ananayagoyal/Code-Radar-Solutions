@@ -14,7 +14,9 @@ if(arr[i]>=max){
 }
 int smax=arr[0];
 for(int i = 0;i<=n-1;i++){
-if(arr[i]>=smax && smax!=max)
+if(arr[i]>=smax && smax!=max){
+    smax = arr[i];
+}
 }
 printf("%d",smax);
 
