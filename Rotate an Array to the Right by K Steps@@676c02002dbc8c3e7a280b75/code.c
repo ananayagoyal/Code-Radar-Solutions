@@ -1,5 +1,5 @@
 #include <stdio.h>
-int reverse(int arr[n],a,b){
+int reverse(int arr[n],int a,int b){
     int i=a;
     int j =b;
     while(i<j){
