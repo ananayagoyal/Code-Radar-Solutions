@@ -7,15 +7,17 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int num;
+    int flag =1;
     scanf("%d",&num);
     for(int i = 0;i<=n-1;i++){
         if(num == arr[i]){
+            int flag = 0;
             printf("%d",i);
             break;
         }
     
     }
-    else
+    if(flag == 1)
         {
             printf("-1");
         }
