@@ -5,17 +5,19 @@ scanf("%d",&n);
 for(int j = 0;j<=n;j++){
     scanf("%d",&i[j]);
 }
+int num = 0;
+int max = i[n-1]
 for(int j = 0;j<=n;j++){
-    if(i[j]<=i[j+1]){
-        int sorted = 0;
-        break;
+    if(max > n[i] ){
+        num = 1;
     }
-    if(sorted){
+    if(num=1){
         printf("Sorted");
     }
     else{
-    printf("Not Sorted");
+        printf("Not Sorted");
     }
+   
 }
 
     return 0;
