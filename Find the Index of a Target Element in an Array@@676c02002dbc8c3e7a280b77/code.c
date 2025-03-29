@@ -7,9 +7,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int num;
-    int flag =1;
+    
     scanf("%d",&num);
     for(int i = 0;i<=n-1;i++){
+        int flag =1;
         if(num == arr[i]){
             printf("%d",i);
             int flag = 0;
