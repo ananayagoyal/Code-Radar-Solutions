@@ -2,13 +2,13 @@
 int main(){
 int n,i[n];
 scanf("%d",&n);
-for(int j = 0;j<=n;j++){
+for(int j = 0;j<=n-1;j++){
     scanf("%d",&i[j]);
 }
 int num = 0;
 int max = i[n-1];
-for(int j = 0;j<=n;j++){
-    if(max > n[i] ){
+for(int j = 0;j<=n-1;j++){
+    if(max > i[]j ){
         num = 1;
     }
     if(num=1){
