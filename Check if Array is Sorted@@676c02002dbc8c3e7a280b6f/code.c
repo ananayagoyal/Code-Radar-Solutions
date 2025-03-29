@@ -9,7 +9,7 @@ int num ;
 int max = i[n-1];
 for(int j = 0;j<=n-1;j++){
     num = 0;
-    if(max > i[j] ){
+    if(max > i[j-1] ){
         num = 1;
     }
 }
