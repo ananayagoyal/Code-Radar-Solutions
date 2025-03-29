@@ -11,8 +11,8 @@ int main(){
     scanf("%d",&num);
     for(int i = 0;i<=n-1;i++){
         if(num == arr[i]){
-            int flag = 0;
             printf("%d",i);
+            int flag = 0;
             break;
         }
     
