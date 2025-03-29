@@ -12,7 +12,7 @@ if(arr[i]>=max){
     max = arr[i];
 }
 }
-int smax=arr[0];
+int smax= -1;
 for(int i = 0;i<=n-1;i++){
 if(arr[i]>=smax && smax!=max){
     smax = arr[i];
