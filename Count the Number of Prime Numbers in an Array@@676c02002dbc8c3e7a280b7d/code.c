@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int count = n;
-    for(i=0;i<=n-1;i++){
+    for(int i=0;i<=n-1;i++){
         if(prime(arr[i])){
             count = count -1;
         }
