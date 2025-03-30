@@ -13,12 +13,12 @@ int main(){
             arr[i] = ans[idx];
             idx++;
         }
-
+    }
 while(idx!=n){
     ans[idx]=0;
     idx++;
 }
-    }
+    
     for(int i = 0;i<=n-1;i++){
         printf("%d",ans[i]);
     }
