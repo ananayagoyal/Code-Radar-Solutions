@@ -20,7 +20,7 @@ while(idx!=n){
 }
     
     for(int i = 0;i<=n-1;i++){
-        printf("%d",ans[i]);
+        printf("%d ",ans[i]);
     }
     return 0;
 }
