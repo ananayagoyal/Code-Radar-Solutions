@@ -14,7 +14,7 @@ int main(){
             idx++;
         }
         else{
-            ans[idx] = 0
+            ans[idx] = 0;
         }
     }
 
