@@ -13,7 +13,7 @@ int main(){
     int n;
     int arr[n];
     scanf("%d",&n);
-    for(i=0;i<=n-1;i++){
+    for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
     int count = n;
