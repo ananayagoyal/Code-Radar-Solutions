@@ -3,24 +3,24 @@ int main(){
     int n;
     scanf("%d",&n);
     int arr[n];
-    int aa[n];
+    int ans[n];
     for(int i = 0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int a=0;
+    int idx=0;
     for(int i = 0;i<=n-1;i++){
         if(arr[i] != 0){
-            arr[i] == aa[a];
-            a++;
+            arr[i] = aa[idx];
+            idx++;
         }
 
-while(a!=n){
-    aa[a]=0;
-    a++;
+while(idx!=n){
+    ans[idx]=0;
+    idx++;
 }
     }
     for(int i = 0;i<=n-1;i++){
-        printf("%d",aa[i]);
+        printf("%d",ans[i]);
     }
     return 0;
 }
