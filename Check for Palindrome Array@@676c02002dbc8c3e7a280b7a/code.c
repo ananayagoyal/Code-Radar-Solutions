@@ -18,7 +18,7 @@ int main(){
     for(int i = 0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int b[n] = reverse(arr,0,n-1);
+    int b[n] = arr[n];
     int flag = 0;
     for(int i = 0;i<=n-1;i++){
         if(arr[i]== b[i]){
