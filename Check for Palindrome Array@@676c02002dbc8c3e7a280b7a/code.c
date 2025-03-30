@@ -20,7 +20,7 @@ int main(){
     }
     int b[n];
     for(int i = 0;i<=n-1;i++){
-    int b[i] = arr[i];
+    b[i] = arr[i];
     }
     reverse(arr,0,n-1);
     int flag = 0;
