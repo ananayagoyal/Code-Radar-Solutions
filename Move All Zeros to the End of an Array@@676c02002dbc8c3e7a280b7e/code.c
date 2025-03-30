@@ -13,10 +13,11 @@ int main(){
             arr[i] = ans[idx];
             idx++;
         }
-        else{
+    }
+        while(idx != n){
             ans[idx] = 0;
         }
-    }
+    
 
     
     for(int i = 0;i<=n-1;i++){
