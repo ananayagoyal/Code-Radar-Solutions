@@ -10,7 +10,7 @@ int main(){
     int idx=0;
     for(int i = 0;i<=n-1;i++){
         if(arr[i] != 0){
-            arr[i] = aa[idx];
+            arr[i] = ans[idx];
             idx++;
         }
 
