@@ -1,5 +1,5 @@
 #include <stdio.h>
-int sort(int arr[n]){
+int sort(int arr[]){
     int n;
     for(int i =0;i<=n-1;i++){
         for(j=0;j<=n-2;j++){
