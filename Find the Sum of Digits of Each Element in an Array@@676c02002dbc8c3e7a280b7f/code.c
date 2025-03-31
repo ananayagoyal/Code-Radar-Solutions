@@ -6,7 +6,7 @@ void sum(int n){
     s = s+digit;
     n = n/10;
     }
-    return;
+    return s;
 
 }
 int main(){
@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i = 0;i<=n-1;i++){
-         sum(arr[i]);
+         s(arr[i]);
          printf("%d ",sum);
     }
    
