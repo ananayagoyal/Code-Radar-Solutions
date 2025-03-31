@@ -7,7 +7,7 @@ void prime(int n){
             break;
         }
     }
-     return;
+     return n;
 }
 int main(){
     int n;
