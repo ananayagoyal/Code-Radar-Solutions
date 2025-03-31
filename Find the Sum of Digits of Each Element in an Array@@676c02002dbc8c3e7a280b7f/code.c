@@ -1,7 +1,7 @@
 #include <stdio.h>
 void sum(int n){
+    int s = 0;
     while(n!= 0){
-   int s = 0;
     int digit = n%10;
     s = s+digit;
     n = n/10;
