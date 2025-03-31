@@ -13,7 +13,7 @@ if(arr[i]>=max){
     max = arr[i];
 }
 }
-int smax= INT_SMIN;
+int smax= INT_MIN;
 for(int i = 0;i<=n-1;i++){
 if(arr[i]>smax && smax!=max){
     smax = arr[i];
