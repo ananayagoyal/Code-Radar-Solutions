@@ -10,8 +10,9 @@ for(int i = 0;i<n;i++){
 int max =INT_MAX;
 for(int j = 0;j<n;j++){
     for(int i = 0;i<n;i++){
-        if((arr[j]*arr[i])>max){
-            max = arr[j]*arr[i];
+        int product = (arr[j]*arr[i]);
+        if(product >max){
+            max = product;
         }
     }
 }
