@@ -14,7 +14,7 @@ if(arr[i]>=max){
     max = arr[i];
     smax = max;
 }
-else if(arr[i]>smax){
+else if(arr[i]>smax && smax != max){
     smax = arr[i];
 }
 }
