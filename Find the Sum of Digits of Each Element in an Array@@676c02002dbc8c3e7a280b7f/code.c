@@ -6,7 +6,7 @@ void sum(int n){
     s = s+digit;
     n = n/10;
     }
-    return sum;
+    return;
 
 }
 int main(){
