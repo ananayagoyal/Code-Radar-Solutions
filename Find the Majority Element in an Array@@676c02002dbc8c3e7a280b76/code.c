@@ -8,7 +8,7 @@ int main() {
     }
     for(int i = 0; i < n; i++) {
        for(int j = 0; j < n; j++) {
-       arr[i] == arr[j]
+       arr[i] == arr[j];
        break;
        }
        printf("%d",arr[j]);
