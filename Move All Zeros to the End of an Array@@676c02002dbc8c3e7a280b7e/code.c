@@ -16,6 +16,7 @@ int main(){
     }
         while(idx < n){
             ans[idx] = 0;
+            idx++;
         }
     
     for(int i = 0;i<=n-1;i++){
