@@ -14,7 +14,7 @@ int main(){
             idx++;
         }
     }
-        while(idx != n){
+        while(idx <= n){
             ans[idx] = 0;
         }
     
@@ -24,4 +24,3 @@ int main(){
         printf("%d ",ans[i]);
     }
     return 0;
-}
