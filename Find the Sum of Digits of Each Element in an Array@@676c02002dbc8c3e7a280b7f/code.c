@@ -1,5 +1,5 @@
 #include <stdio.h>
-void sum(int n){
+int sum(int n){
     int s = 0;
     while(n!= 0){
     int digit = n%10;
