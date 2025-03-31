@@ -13,17 +13,15 @@ int main(){
          flag =1;
         if(num == arr[i]){
             printf("%d",i);
-            // flag = 0;
+            flag = 0;
             break;
         }
-        else{
-            printf("-1");
-        }
+       
     
     }
-    // if(flag == 1)
-    //     {
-    //         printf("-1");
-    //     }
+    if(flag == 1)
+        {
+            printf("-1");
+        }
     return 0;
 }
