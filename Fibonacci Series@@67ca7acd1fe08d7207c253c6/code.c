@@ -4,10 +4,11 @@ int fibonacciSeries(int n){
         return 1;
     }
     return fibonacciSeries(n-1)+fibonacciSeries(n-2);
-}
+
     int print(){
     for(int i=1;i<=n;i++){
         printf("%d",fibonacciSeries(n));
     }
     return;
     }
+}
