@@ -8,17 +8,13 @@ for(int i = 0;i<=n-1;i++){
     scanf("%d",&arr[i]);
 }
 int max=INT_MIN;
+int smax= INT_MIN;
 for(int i = 0;i<=n-1;i++){
 if(arr[i]>=max){
     max = arr[i];
+    smax = max;
 }
-}
-int smax= INT_MIN;
-for(int i = 0;i<=n-1;i++){
 if(arr[i]>smax){
-    if(smax == max){
-        continue;
-    }
     smax = arr[i];
 }
 }
