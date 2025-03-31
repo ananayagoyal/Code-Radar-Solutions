@@ -1,12 +1,12 @@
 #include <stdio.h>
 int sum(int n){
-    int s = 0;
+    int sum = 0;
     while(n!= 0){
     int digit = n%10;
-    s = s+digit;
+    sum = sum+digit;
     n = n/10;
     }
-    return s;
+    return sum;
 
 }
 int main(){
@@ -17,7 +17,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     for(int i = 0;i<=n-1;i++){
-         s(arr[i]);
+         sum(arr[i]);
          printf("%d ",sum);
     }
    
