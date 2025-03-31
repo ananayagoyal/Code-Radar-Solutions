@@ -7,7 +7,7 @@ int arr[n];
 for(int i = 0;i<n;i++){
     scanf("%d",&arr[i]);
 }
-int max =INT_MAX;
+int max =INT_MIN;
 for(int j = 0;j<n;j++){
     for(int i = 0;i<n;i++){
         int product = (arr[j]*arr[i]);
