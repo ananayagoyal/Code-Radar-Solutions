@@ -1,7 +1,7 @@
 #include <stdio.h>
-int fibnacciSeries(int n){
+int fibonacciSeries(int n){
     if(n==1|| n==2){
         return 1;
     }
-    return fibnacciSeries(n-1)+fibnacciSeries(n-2);
+    return fibonacciSeries(n-1)+fibonacciSeries(n-2);
 }
