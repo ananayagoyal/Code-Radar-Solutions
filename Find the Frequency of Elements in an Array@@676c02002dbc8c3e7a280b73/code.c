@@ -15,7 +15,7 @@ int main() {
             arr[i] == arr[j];
             count = count +1;
         }
-        printf("%d",count);
+        printf("%d %d\n",i,count);
     }
     
     
