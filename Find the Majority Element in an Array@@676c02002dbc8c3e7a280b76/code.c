@@ -8,10 +8,15 @@ int main() {
     }
     for(int i = 0; i < n; i++) {
        for(int j = 0; j < n; j++) {
-       If(arr[i] == arr[j]);
-       break;
+       if(arr[i] == arr[j]){
+        printf("%d",arr[j]);
+        break;
        }
-       printf("%d",arr[j]);
+       else{
+        printf("-1");
+       }
+       }
+       
     }
     return 0;
 }
