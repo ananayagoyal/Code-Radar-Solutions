@@ -10,11 +10,11 @@ int main(){
     int idx=0;
     for(int i = 0;i<=n-1;i++){
         if(arr[i] != 0){
-            arr[i] = ans[idx];
+            ans[idx] = arr[i];
             idx++;
         }
     }
-        while(idx <= n){
+        while(idx < n){
             ans[idx] = 0;
         }
     
