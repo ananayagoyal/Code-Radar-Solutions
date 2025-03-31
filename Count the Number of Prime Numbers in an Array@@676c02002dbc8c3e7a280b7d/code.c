@@ -16,10 +16,10 @@ int main(){
     for(int i=0;i<=n-1;i++){
         scanf("%d",&arr[i]);
     }
-    int count = n;
+    int count = 0;
     for(int i=0;i<=n-1;i++){
         if(prime(arr[i])){
-            count = count -1;
+            count = count + 1;
         }
     }
     printf("%d",count);
