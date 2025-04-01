@@ -14,6 +14,9 @@ int main()
             else if(j==m){
                 printf("*");
             }
+            else if(i==m){
+                printf("*");
+            }
             else{
                 printf(" ");
             }
