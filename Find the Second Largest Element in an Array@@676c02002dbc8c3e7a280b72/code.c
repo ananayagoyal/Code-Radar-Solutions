@@ -11,7 +11,7 @@ int main() {
     }
     
     int max = INT_MIN;
-    int smax = INT_MIN;
+    int smax = -1 ;
     int flag = -1;
     
     for(int i = 0; i < n; i++) {
