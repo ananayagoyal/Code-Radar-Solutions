@@ -26,7 +26,9 @@ int main() {
         }
     }
     
-    if (flag == 0)printf("%d", smax);
+    if (flag == 0){
+        printf("%d", smax);
+    }
     else{
         printf("-1");
     }
