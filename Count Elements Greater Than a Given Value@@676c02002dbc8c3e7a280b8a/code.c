@@ -8,7 +8,7 @@ for(int i = 0;i<=n-1;i++){
 }
 int count = 0;
 for(int i = 0;i<=n-1;i++){
-   if(arrr[i]>k){
+   if(arr[i]>k){
     count++;
    }
 }
