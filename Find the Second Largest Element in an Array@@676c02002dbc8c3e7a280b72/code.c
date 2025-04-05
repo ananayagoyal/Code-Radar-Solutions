@@ -17,11 +17,9 @@ int main() {
         if(arr[i] > max) {
             smax = max; 
             max = arr[i]; 
-            flag = 0;
         }
         else if(arr[i] > smax && arr[i] != max) {
             smax = arr[i];
-            flag = 0;
         }
     }
     
