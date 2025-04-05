@@ -12,17 +12,23 @@ int main() {
     
     int max = INT_MIN;
     int smax = INT_MIN;
+    int flag =1;
     
     for(int i = 0; i < n; i++) {
         if(arr[i] > max) {
             smax = max; 
             max = arr[i]; 
+            flag = 0;
         }
         else if(arr[i] > smax && arr[i] != max) {
             smax = arr[i];
+            flag = 0;
         }
     }
     
-    printf("%d", smax);
+    if (flag == 0)printf("%d", smax);
+    else{
+        printf("-1");
+    }
     return 0;
 }
