@@ -29,7 +29,7 @@ int main() {
     if (flag == 0){
         printf("%d", smax);
     }
-    else{
+    else if(flag ==1) {
         printf("-1");
     }
     return 0;
