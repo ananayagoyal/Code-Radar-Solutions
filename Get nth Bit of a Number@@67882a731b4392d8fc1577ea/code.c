@@ -8,7 +8,6 @@ int getNthBit(int num, int n) {
 int main() {
     int num, n;
 
-    printf("Enter a number: ");
     if (scanf("%d", &num) != 1) {
         return 1;
     }
