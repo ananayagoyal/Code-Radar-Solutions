@@ -10,9 +10,11 @@ int main() {
     scanf("%d", &n);
 
     if (n < 0 || n >= sizeof(int) * 8) {
-        return 1;
+        printf("1");
+        return
     }
 
     int bitValue = getNthBit(num, n);
-    return 0;
+    printf("0");
+    return ;
 }
