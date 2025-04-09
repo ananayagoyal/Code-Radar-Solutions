@@ -13,7 +13,7 @@ int main() {
         return 1;
     }
 
-    printf("Enter bit position (0 = LSB): ");
+
     if (scanf("%d", &n) != 1) { 
         return 1;
     }
