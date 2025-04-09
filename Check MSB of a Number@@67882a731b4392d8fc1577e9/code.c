@@ -1,14 +1,18 @@
 #include <stdio.h>
+#include <limits.h> // For INT_MAX, CHAR_BIT, etc.
+
+int isMSBSet(int num) {
+    return (num >> (sizeof(int) * 8 - 1)) & 1;
+}
 
 int main() {
-    int num,b;
-    scanf("%d",num);
-    unsigned int b= numx80000000; 
+    int num;
+    scanf("%d", &num); 
 
-    if (b & (1U << 31)) {
-        printf("Set");
+    if (isMSBSet(num)) {
+        printf("Set"); 
     } else {
-        printf("Not Set");
+        printf("Not Set"); 
     }
 
     return 0;
