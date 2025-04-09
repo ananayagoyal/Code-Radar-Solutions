@@ -23,7 +23,7 @@ int main() {
     }
 
     int bitValue = getNthBit(num, n);
-    printf("Bit %d of %d is: %d\n", n, num, bitValue);
+    printf("%d", bitValue);
     getchar(); 
     getchar(); 
 
