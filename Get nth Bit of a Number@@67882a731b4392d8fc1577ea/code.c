@@ -11,7 +11,7 @@ int main() {
 
     if (n < 0 || n >= sizeof(int) * 8) {
         printf("1");
-        return
+        return;
     }
 
     int bitValue = getNthBit(num, n);
