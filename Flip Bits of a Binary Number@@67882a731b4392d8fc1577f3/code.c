@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    unsigned n;
-    scanf("%1u", &n);
-    printf("%u\n", (~n) & 0xF); 
+    int n;
+    scanf("%d", &n);
+    printf("%d\n", ~n);  
     return 0;
 }
